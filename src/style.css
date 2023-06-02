@@ -1,0 +1,182 @@
+body {
+  font-family: sans-serif;
+  background: salmon;
+  padding: 0;
+  margin: 0;
+}
+
+.search-container {
+  margin-bottom: 32px;
+  width: 100%;
+  display: flex;
+  background-color: white;
+  height: 80px;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.search-container input {
+  width: 80%;
+  padding: 8px;
+  border-radius: 8px;
+  border: 1px solid salmon;
+  margin-right: 20px;
+}
+
+.search-container button {
+  padding: 8px;
+  border-radius: 8px;
+  border: 1px solid salmon;
+  background-color: salmon;
+  color: white;
+  cursor: pointer;
+}
+
+.search-container button:active {
+  background-color: white;
+  color: salmon;
+}
+
+#parent-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#parent-div > div {
+  max-width: 100%;
+  width: 400px;
+  background-color: white;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 12px;
+}
+
+.button-container {
+  display: flex;
+  justify-content: flex-end;
+  gap: 8px;
+}
+
+.button-container button {
+  padding: 8px;
+  border-radius: 8px;
+  color: white;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 30px;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 10px;
+}
+
+.button-container .update-button {
+  color: darkorange;
+  border: 0;
+  background-color: transparent;
+}
+
+.button-container .update-button:hover {
+  border: 1px solid lightgray;
+  background-color: lightgray;
+  color: black;
+}
+
+.button-container .update-button:active {
+  border: 1px solid darkorange;
+  background-color: transparent;
+  color: darkorange;
+}
+
+.button-container .delete-button {
+  background-color: red;
+  border: 1px solid red;
+}
+
+.button-container .delete-button:hover {
+  background-color: red;
+  border: 1px solid red;
+  background-color: lightgray;
+  border-color: lightgray;
+}
+
+.button-container .delete-button:active {
+  background-color: white;
+  border: 1px solid red;
+  color: red;
+}
+
+.button-container .show-other-data {
+  background-color: salmon;
+  border: 1px solid salmon;
+}
+
+.button-container button:active {
+  background-color: white;
+  color: salmon;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+form input {
+  padding: 8px;
+  border-radius: 8px;
+  border: 1px solid salmon;
+  margin-bottom: 8px;
+}
+
+form label {
+  margin-bottom: 4px;
+  font-size: 12px;
+}
+
+form h2 {
+  font-size: 12px;
+  font-weight: 500px;
+}
+
+form ul {
+  margin: 0 0 8px 0;
+  font-size: 12px;
+}
+
+.user-container {
+  color: salmon;
+  padding: 20px;
+  margin: 20px 0;
+}
+
+.user-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.user-container ul {
+  /* remove list decoration */
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  font-size: 12px;
+}
+
+.user-container li {
+  display: flex;
+  align-items: center;
+}
+
+.user-container ul input {
+  margin-right: 4px;
+}
+
+.user-container ul label {
+  margin: 0;
+}
